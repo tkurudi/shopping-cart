@@ -41,7 +41,7 @@ export default class ItemDetails extends React.Component {
                       <strong> {`$${this.props.price}`}</strong>
                       <br />
                       <strong className="price-strike">
-                        {`$${this.props.price}`}
+                        {`$${this.props.originalPrice}`}
                       </strong>
                     </Col>
                     <Col md={6}>Oty:1</Col>
